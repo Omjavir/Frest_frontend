@@ -67,7 +67,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="py-6 text-sm text-center border-blue-500">
-                <Link to={'https://www.linkedin.com/in/om-javir-316613254/'}><h4>Made with ❤️ by <b className='underline cursor-pointer'>omjavir</b></h4></Link>
+                <a target={'_blank'} href='https://www.linkedin.com/in/om-javir-316613254/'><h4>Made with ❤️ by <b className='underline cursor-pointer'>omjavir</b></h4></a>
             </div>
         </footer>
     )
