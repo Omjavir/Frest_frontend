@@ -34,7 +34,7 @@ const Cart = () => {
               <div className='flex justify-between p-4 sm:p-10 border-b-blue-500 border-2' key={cartItem.id}>
                 <div className='flex justify-center items-center'>
                   <div className='bg-red-600 w-20 sm:w-40'><img src={cartItem.image} alt="CartItemImage" className='' /></div>
-                  <div className='px-4 sm:text-4xl text-xl'><h3>{cartItem.title}</h3><p>{cartItem.price}</p></div>
+                  <div className='px-4 sm:text-4xl text-xl'><h3>{cartItem.title}</h3><p>${cartItem.price}</p></div>
                 </div>
                 <div className='flex flex-col sm:flex-row justify-center items-center'>
                   <div className="flex flex-row w-[20vw] my-2 sm:w-[7vw] h-10 sm:h-12 relative bg-transparent text-blue-500 border-blue-500 border-2 mt-1 sm:text-4xl text-xl">
