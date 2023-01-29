@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom';
 import { CartState } from '../Reducer/Context';
 
 const Cart = () => {
@@ -68,7 +67,7 @@ const Cart = () => {
           <h1 className='font-bold sm:p-10 p-5 w-[100vw] border-b-blue-500 border-2 font-serif text-2xl sm:text-4xl'>My Cart</h1>
           <div className='flex justify-center flex-col items-center pt-28 pb-28'>
             <h2 className='font-bold px-10 w-[100vw] text-xl text-center font-mono sm:text-3xl'>YOUR CART IS EMPTY</h2>
-            <Link to={'/'}><button className='font-bold text-xl sm:text-2xl w-28 sm:w-32 border-blue-600 border-2 px-2 py-1 rounded-3xl my-4'>Fill it Up</button></Link>
+            <a href={'/#products'}><button className='font-bold text-xl sm:text-2xl w-28 sm:w-32 border-blue-600 border-2 px-2 py-1 rounded-3xl my-4'>Fill it Up</button></a>
           </div>
         </div>
       )}
